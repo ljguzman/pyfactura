@@ -846,17 +846,17 @@ with gui.Window(name='mywin', visible=False,
         gui.Label(name='label_469_345_1892', alignment='right', 
                   height='17', left='466', top='488', width='50', 
                   text=u'IVA:', )
-        gui.TextBox(mask='#####.##', name=u'imp_iva', editable=False,
+        gui.TextBox(mask='#######.##', name=u'imp_iva', editable=False,
                     alignment='right', left='520', top='485', width='115',)
         gui.Label(name='label_469_345', alignment='right', height='17', 
                   left='466', top='461', width='50', 
                   text=u'Tributos:', )
-        gui.TextBox(mask='#####.##', name=u'imp_trib', editable=False,
+        gui.TextBox(mask='#######.##', name=u'imp_trib', editable=False,
                     alignment='right', left='520', top='455', width='115')
         gui.Label(name='label_469_345_226', alignment='right', 
                   height='17', left='480', top='519', width='36', 
                   text=u'Total:', )
-        gui.TextBox(mask='#####.##', name=u'imp_total', alignment='right', 
+        gui.TextBox(mask='#######.##', name=u'imp_total', alignment='right', 
                     left='520', top='515', width='115', editable=False)
         gui.Image(name='image_507_571', height='27', left='350', top='514', 
                   width='178', stretch=False, filename='sistemas-agiles.png', )
